@@ -50,3 +50,22 @@ ls -a
 rm .git
 rm -rf .git
 git rm
+ls
+sudo rm -rf flask-cicd-app
+ls
+vim app.py
+vim requirements.txt
+mkdir tests
+touch tests/test_app.py
+cd test
+cd tests
+ls
+vim test_app.py
+cd ..
+vim Dockerfile
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+sudo docker ps
+python app.py
